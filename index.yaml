@@ -1,25 +1,14 @@
 apiVersion: v1
 entries:
-  clarus-chart:
+  phonebook-app:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-01-20T15:55:10.002337778Z"
+    created: "2025-01-21T16:52:18.707291505Z"
     description: A Helm chart for Kubernetes
-    digest: 3dd72e0f79f796190697defc2c66b80791aa126923eebd0df6c75a91044dd543
-    name: clarus-chart
+    digest: fb52a134f2c563b7c50886ee0cb6224e0334daa2188139df858d2d1cd5713b9d
+    name: phonebook-app
     type: application
     urls:
-    - clarus-chart-0.1.1.tgz
-    version: 0.1.1
-  second-chart:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2025-01-20T15:55:10.011097786Z"
-    description: A Helm chart for Kubernetes
-    digest: ab3e7d53f11c45472a0a054b0594d4de1b3a6450ba0b592e5a2fba0745f0e095
-    name: second-chart
-    type: application
-    urls:
-    - second-chart-0.1.0.tgz
+    - https://github.com/goekanmalkoc/mygithubrepo/phonebook-app-0.1.0.tgz
     version: 0.1.0
-generated: "2025-01-20T15:55:10.001442697Z"
+generated: "2025-01-21T16:52:18.706570625Z"
